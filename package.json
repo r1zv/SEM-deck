@@ -1,0 +1,26 @@
+{
+  "name": "SEM-deck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r1zv/SEM-deck.git"
+  },
+  "keywords": [],
+  "author": "Asad Rizvi <rizvas.dev@gmail.com> (example.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/r1zv/SEM-deck/issues"
+  },
+  "homepage": "https://github.com/r1zv/SEM-deck#readme",
+  "devDependencies": {
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
